@@ -1,3 +1,13 @@
+# crpto-order-book
+
+This will has a dropdown of currency pairs (e.g. USD/BTC)
+When user selects item from the list, the app will show streaming order books (lists of bids and asks) for the pair.
+
+When a new item is selected from the list, unsubscribe from the current order book, and subscribe to the newly selected one.
+
+Bitstamp API for trading pairs: https://www.bitstamp.net/api/v2/trading-pairs-info/
+Bitstamp streaming API: https://www.bitstamp.net/websocket/v2/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +76,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
